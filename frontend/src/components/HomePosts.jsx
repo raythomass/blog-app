@@ -1,8 +1,11 @@
 const HomePosts  = () => {
     return(
-        <div>
-            HomePosts
+        <div className="homeposts">
+            <img className="homeposts-img"></img>
+            <div className="homeposts-details"></div>
+            
         </div>
+
     )
 }
 

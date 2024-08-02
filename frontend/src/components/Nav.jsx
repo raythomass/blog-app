@@ -1,15 +1,20 @@
 import { Link } from "react-router-dom";
 
 const Nav  = () => {
-    const user = true;
     return(
         <div className="nav">
-            <div className="nav-items flex justify-between">
-                <Link className="logo" to='/'>Blog</Link>
-                <div className="nav-btns flex gap-5">
-                    <input placeholder="Search a post" type="text"></input>
-                    {user? <Link to='/write'>Write</Link> :<Link to='/login'>Login</Link>}
-                    {user? <Link to='/profile'>Profile</Link> :<Link to='/registar'>Registar</Link>}
+            <div className='nav-items'>
+                <div className='nav-logo'>
+                    <h1>Blog App</h1>
+                </div>
+                <div className='nav-list'>
+                    <input placeholder="Search for a post" type="text"></input>
+                    <Link className='nav-link' to={'/login'}>
+                        <h3>Login</h3> 
+                    </Link>
+                    <Link className='nav-link' to={'/registar'}>
+                        <h3>Registar</h3> 
+                    </Link>
                 </div>
             </div>
         </div>
