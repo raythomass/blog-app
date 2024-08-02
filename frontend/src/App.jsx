@@ -1,12 +1,10 @@
-import Footer from "./components/Footer"
-import Nav from "./components/Nav"
 import './App.css'
+import Home from "./pages/Home"
 
 const App = () => {
   return (
     <>
-    <Nav/>
-    <Footer/>
+    <Home/>
     </>
   )
 }
