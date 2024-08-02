@@ -7,6 +7,10 @@ const Home  = () => {
         <>
         <Nav/>
         <HomePosts/>
+        <HomePosts/>
+        <HomePosts/>
+        <HomePosts/>
+        <HomePosts/>
         <Footer/>
         </>
     )
