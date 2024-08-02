@@ -1,6 +1,12 @@
+import Footer from "./components/Footer"
+import Nav from "./components/Nav"
+
 const App = () => {
   return (
-    <div>Test App</div>
+    <>
+    <Nav/>
+    <Footer/>
+    </>
   )
 }
 export default App
